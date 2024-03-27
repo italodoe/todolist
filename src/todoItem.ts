@@ -6,5 +6,9 @@ export class TodoItem {
       this.done = done;
       this.what = what;
     }
+
+    toggleDone(){
+        this.done = !this.done;
+    }
   }
   
